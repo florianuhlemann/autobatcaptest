@@ -15,11 +15,11 @@ from pushnotifier import PushNotifier as pn
 global comportList, instanceCounter, connectPacket, disconnectPacket, stopCommandPacket, dischargeCmdPacket, chargeCmdPacket, token, bucket, org, pn, serialDevices
 
 
-token = "2CrdAjVGcuw7XTnTSHXUq-rqOvL8A_QAudkWgOeX2kWLAIW5oWLxWdMIT4Bo-_8XOvV6zZQE9nITqbUxrxMoDg=="
+token = "[INSERT CUSTOM TOKEN]"
 bucket = "BatteryTesterBucket"
 org = "BatteryTesterName"
 
-pn = pn.PushNotifier('florianuhlemann', 'Karlmarx2711a', 'batterytester', '8E7D6C3VEV46BV46BV4663CVB5LO6575BETKFFBFBF')
+pn = pn.PushNotifier('florianuhlemann', 'Karlmarx2711a', 'batterytester', '[INSERTCUSTOMID]')
 
 pnDevices = pn.get_all_devices()
 print(pnDevices)
